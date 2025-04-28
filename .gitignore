@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+
+# Virtual env
+env/
+venv/
+ENV/
+*.env
+
+# Django
+/staticfiles/
+/media/
+/db.sqlite3
+*.pyc
+
+# VS Code
+.vscode/
+
+# Cobertura de tests
+htmlcov/
+.coverage
+coverage.xml
+coverage/
+
+# API schema
+schema.json
+schema.yml
+*.schema.json
+
+# React (si lo tienes en la misma carpeta)
+node_modules/
+build/
